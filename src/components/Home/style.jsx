@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
-    const Container = styled.div `
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	width: 375px;
-	margin: 0 auto;
-	background-color: #FB6B6B;
 
+const Container = styled.div `
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+    img {
+        width: 136px;
+        height: 161px;
+        margin-bottom: 20px;
+        margin-top: 300px;
+    }
     h1 {
         font-family: 'Righteous';
         font-weight: 400;
